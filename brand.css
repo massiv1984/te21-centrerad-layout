@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+
+    background-color: #a19d55;
+    color: #fcfdee;
+    font-family: 'Antic Slab', serif;
+}
+
+.hero > h1 {
+    color: #fcfdee;
+    display: flex;
+    align-items: center;
+}
+
+hero > h1 > img {
+    filter: opacity(0.6);
+}
+
+a {
+    color: #fcfdee;
+}
+
+a:hover {
+    color: #fcfdee;
+}
+
+nav > a {
+    font-weight: 400;
+    text-decoration: none;
+}
