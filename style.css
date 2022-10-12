@@ -1,0 +1,42 @@
+.container {
+    width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+
+.hero {
+    display: grid;
+    grid-template-areas: "stack";
+}
+
+.hero > * {
+    grid-area: stack;
+}
+
+.hero > h1 {
+    place-self: center;
+    font-size: 4rem;
+    color: white;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
